@@ -1,4 +1,5 @@
 /* shared styles */
+
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -6,6 +7,10 @@ body {
 
 .text-primary {
     color: #FFF;
+}
+
+.text-secondary {
+    color: #F00;
 }
 
 /* header/banner styles */
@@ -32,4 +37,38 @@ body {
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+/* offer-section styles */
+
+.offer-section {
+    padding: 0 260px 120px;
+}
+
+.offer-title {
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-text {
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-info {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
